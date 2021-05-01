@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolioImg {
+  text-align: center;
+}
+
+#sheet {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-color: black;
+  opacity: 30%;
+  position: absolute;
+  z-index: 2;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  color: slateblue;
+  font-style: inherit;
+  position: absolute;
+  top: 40%;
+  z-index: 3;
+}
