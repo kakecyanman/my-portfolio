@@ -28,9 +28,24 @@ h1 {
   width: 100%;
   text-align: center;
   font-size: 100px;
-  color: slateblue;
+  color: purple;
   font-style: inherit;
   position: absolute;
   top: 40%;
   z-index: 3;
+}
+
+.url {
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-style: inherit;
+  position: absolute;
+  top: 60%;
+}
+
+#instagram {
+  margin-left: 20px;
+  margin-right: 20px;
 }
